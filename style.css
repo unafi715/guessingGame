@@ -1,0 +1,46 @@
+.userInput2{
+    display: none;
+}
+.button2{
+    display: none;
+}
+
+.player2{
+    display: none;
+}
+.chance{
+    display: none;
+    color: red
+}
+.playerp{
+    font-size: 12px;
+    color: blue;
+
+}
+
+body{
+    background: lightblue;
+}
+
+.playerp{
+    
+    animation: myAni 2s alternate;
+}
+
+@keyframes myAni{
+ from{
+    letter-spacing: 5px;
+    filter: blur(10px);
+ }
+}
+.count{
+    
+    animation: myAni 2s alternate;
+}
+
+@keyframes myAni{
+ from{
+    letter-spacing: 5px;
+    filter: blur(10px);
+ }
+}
